@@ -46,20 +46,13 @@ To conduct the experiments:
 
 ## **Agent Roles and Workflow**  
 
-### **Primary Agents**  
+### **Agents**  
 - **Creative Agent**: Generates strategies and guides workflows.  
 - **Data Analysis Agent**: Processes raw data into actionable insights.  
 - **Web Research Agent**: Collects relevant market data and trends.  
-
-### **Secondary Agents**  
 - **Content Creator**: Produces marketing copy and articles.  
 - **Image Generator**: Designs visuals using DALL-E 3.  
-- **Web Developer**: Builds landing pages and websites.  
-
-### **Supporting Agents**  
 - **Web Scrap and Social Media Scrap**: Extract data from websites and platforms.  
-- **Content Analysis**: Classifies and refines data for actionable insights.  
-- **Sentiment Analysis**: Evaluates emotional tone and consumer behavior using trends from Google and SEMrush APIs.  
 
 **Workflow Highlights**:  
 - Agents collaborate dynamically based on task relevance.  
@@ -174,17 +167,6 @@ print(data)
 
 ---
 
-## **Experimental Results**  
-
-| **Task**       | **Execution Time** | **Success Rate** | **Readability** | **SEO Score** | **Plagiarism** |  
-|-----------------|--------------------|------------------|-----------------|---------------|----------------|  
-| Website         | 5:56              | 67%              | 95%             | 80%           | 3%             |  
-| Landing Page    | 2:40              | 92%              | 95%             | 80%           | 3%             |  
-| Content         | 0:35              | 100%             | 98%             | 80%           | 6%             |  
-| Trends Analysis | 11:36             | 95%              | --              | 80%           | --             |  
-
----
-
 ## **Usage Instructions**  
 
 1. **Configure Agents**: Use AutoGen Studio to define workflows and assign roles to agents.  
@@ -192,12 +174,3 @@ print(data)
 3. **Analyze Outputs**: Monitor results through logs and dashboards for performance evaluation.  
 
 ---
-
-## **Acknowledgments**  
-Special thanks to:  
-- The creators of **AutoGen Studio** for enabling advanced multi-agent workflows.  
-- Researchers and developers contributing to LLM innovation, such as OpenAI, Anthropic, and Google DeepMind.  
-
----
-
-This README provides a detailed overview of your project, from setup to execution, ensuring clarity and usability for GitHub users. Let me know if any further refinements are needed!
