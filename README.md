@@ -1,6 +1,11 @@
 # Autogenstudio
 This repository showcases hands-on projects using AutoGenStudio 2.0 to simulate a marketing agency with multi-agent Large Language Models (LLMs). It includes detailed workflows, essential skills, and a collection of useful tools designed to streamline digital marketing tasks. 
 
+<div style="background-color: #f8d7da; color: #721c24; padding: 10px; border: 1px solid #f5c6cb; border-radius: 5px;">
+<strong>🚨 Important Notice:</strong> This project is compatible only with <strong>AutoGen Studio 2.0</strong>. Please ensure you are using the correct version to avoid compatibility issues.
+</div>
+
+
 # **Multi-Agent LLM Framework for Marketing Automation**  
 
 This repository explores the implementation of a **multi-agent LLM framework** for simulating a marketing agency's operations. The project evaluates how advanced frameworks like **AutoGen Studio** and models such as **OpenAI 4-0 Mini** and **Mistral** enable agents to collaborate dynamically, solve complex tasks, and deliver high-quality marketing outputs.  
@@ -13,9 +18,7 @@ This repository explores the implementation of a **multi-agent LLM framework** f
 3. [Agent Roles and Workflow](#agent-roles-and-workflow)  
 4. [Technical Setup](#technical-setup)  
 5. [Skills Integration](#skills-integration)  
-6. [Experimental Results](#experimental-results)  
-7. [Usage Instructions](#usage-instructions)  
-8. [Acknowledgments](#acknowledgments)  
+6. [Usage Instructions](#usage-instructions)  
 
 ---
 
@@ -53,9 +56,6 @@ To conduct the experiments:
 **Workflow Highlights**:  
 - Agents collaborate dynamically based on task relevance.  
 - Information flows systematically from supporting to primary agents, enabling seamless decision-making and execution by secondary agents.  
-
----
-Here's the updated **Installation Steps** section with the **AutoGen Studio setup** and **requirements.txt details** included:  
 
 ---
 
@@ -101,9 +101,7 @@ PyPDF2
 textblob  
 pandas  
 numpy  
-tailwindcss  
-react  
-bootstrap  
+
 ```  
 
 Ensure all dependencies are installed for proper execution of agents and skills.  
@@ -114,7 +112,8 @@ Create a `.env` file in the root directory and configure your API keys:
 OPENAI_API_KEY=your_openai_api_key  
 GOOGLE_API_KEY=your_google_api_key  
 GOOGLE_SEARCH_ENGINE_ID=your_google_search_engine_id  
-YOUTUBE_API_KEY=your_youtube_api_key  
+YOUTUBE_API_KEY=your_youtube_api_key
+SEMRUSH_API_KEY=your_semrush_api_key  
 ```  
 
 Load the `.env` file in your Python scripts using `dotenv`:  
@@ -135,8 +134,6 @@ Place all pre-built Python skills in the `skills/` directory and test them indep
 ```bash  
 python skills/<skill_name>.py  
 ```  
-
----
 
 This expanded section ensures all the required steps for installing **AutoGen Studio**, setting up dependencies, and integrating skills are clear and actionable.
 ---
