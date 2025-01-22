@@ -1,5 +1,5 @@
 # Autogenstudio
-This repository showcases hands-on projects using AutoGenStudio to simulate a marketing agency with multi-agent Large Language Models (LLMs). It includes detailed workflows, essential skills, and a collection of useful tools designed to streamline digital marketing tasks. 
+This repository showcases hands-on projects using AutoGenStudio 2.0 to simulate a marketing agency with multi-agent Large Language Models (LLMs). It includes detailed workflows, essential skills, and a collection of useful tools designed to streamline digital marketing tasks. 
 
 Here’s a **complete README file** tailored for your GitHub project, integrating all the aspects of your empirical analysis, methodology, workflows, agents, and technical setup. This version is concise yet comprehensive and aligned with professional GitHub standards.  
 
